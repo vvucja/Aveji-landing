@@ -338,7 +338,8 @@ button.content__header-btn {
 
 .ordering-form__field:last-child { border: none }
 
-@media only screen and not (min-width: 650px) {
+@media only screen and not (min-width: 920px),
+only screen and (orientation: portrait) {
 	.adaptive-vis {
 		display: inline-block;
 	}
